@@ -40,7 +40,7 @@ section p {
   color: #8c8c8c;
 }
 
-.col {
+.container {
   padding-left: 2em;
   padding-right: 2em;
 }
@@ -102,4 +102,10 @@ h5 {
 a:hover,
 a:link {
   text-decoration: none;
+}
+
+hr {
+  background-color: lightgrey;
+  height: 2px;
+  border: none;
 }
