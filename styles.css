@@ -259,3 +259,34 @@ a:link {
     padding-bottom: 1em;
   }
 }
+
+@media(min-width:1024px) {
+  .container {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+
+  .main-nav {
+    float: right;
+    text-align: right;
+    margin: 0;
+  }
+
+  .name {
+    float: left;
+    padding: 0;
+  }
+
+  .main-header {
+    padding-top: 40px;
+  }
+
+  .about-me {
+    font-size: 1.25em;
+  }
+
+  .col-lower {
+    padding-top: 20px;
+  }
+}
