@@ -131,7 +131,7 @@ h5 {
 
 footer a {
   text-align: right;
-  display: block;
+  display: inline-block;
   float: right;
   color: #595959;
   font-weight: 800;
@@ -149,7 +149,15 @@ strong {
   padding-left: 5px;
 }
 
+.portfolio-li,
+.home-li,
+.contact-li {
+  display: none;
+}
 
+footer ul {
+  list-style-type: none;
+}
 
 /* psuedo classes{} */
 a:hover,
@@ -164,12 +172,15 @@ a:link {
   clear: both;
 }
 
+
+
 /* @media css rules for tablet size*/
 @media(min-width:768px) {
   .container {
     padding-left: 25px;
     padding-right: 25px;
   }
+
 
   .name,
   .main-nav a {
@@ -218,5 +229,33 @@ a:link {
   .portfolio-img5 {
     float: left;
     padding-right: 5px;
+  }
+
+  .portfolio-li,
+  .home-li,
+  .contact-li {
+    display: block;
+  }
+
+  footer a {
+    padding-left: 1em;
+  }
+
+  .back-to-top {
+    display: none;
+  }
+
+  .name {
+    padding-top: 50px;
+  }
+
+  footer .clearfix {
+    padding-bottom: 40px;
+  }
+
+  footer p {
+    padding-left: 8em;
+    padding-right: 8em;
+    padding-bottom: 1em;
   }
 }
