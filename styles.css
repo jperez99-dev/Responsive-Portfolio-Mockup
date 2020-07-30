@@ -4,17 +4,13 @@
 
 body {
   margin: 0;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 header {
   background: rgb(247, 247, 247);
   width: 100%;
   text-align: center;
-}
-
-.main-nav {
-  margin-top: 5px;
 }
 
 .name {
@@ -24,6 +20,7 @@ header {
 .main-nav {
   list-style-type: none;
   padding: 0;
+  margin-top: 5px;
   text-transform: uppercase;
 }
 
@@ -37,12 +34,12 @@ header {
 }
 
 section p {
-  color: #8c8c8c;
+  color: #808080;
 }
 
 .container {
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 h2 {
@@ -57,9 +54,9 @@ header li {
   margin-top: 8px;
 }
 
-header ul {
-  margin-right: 30px;
-  margin-left: 30px;
+header ul,
+.portfolio-img {
+  max-width: 100%;
 }
 
 .main-header img {
@@ -71,14 +68,11 @@ header ul {
   text-align: center;
 }
 
-.portfolio-img {
-  max-width: 100%;
-}
-
 .about-me {
-  padding-left: 2em;
-  padding-right: 2em;
   color: #808080;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 35px;
 }
 
 .main-footer {
@@ -90,22 +84,37 @@ header ul {
 h3 {
   font-weight: 500;
   color: #595959;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
 }
 
 h5 {
   font-weight: 600;
   text-transform: uppercase;
   color: #595959;
-}
-
-/* psuedo classes{} */
-a:hover,
-a:link {
-  text-decoration: none;
+  padding-top: 50px;
 }
 
 hr {
   background-color: lightgrey;
   height: 2px;
   border: none;
+}
+
+.profile-img {
+  margin-top: 2.5em;
+  margin-bottom: 1.5em;
+}
+p {
+  font-size: 1em;
+  margin: 0;
+}
+
+.portfolio-img {
+  margin-top: 2em;
+}
+/* psuedo classes{} */
+a:hover,
+a:link {
+  text-decoration: none;
 }
