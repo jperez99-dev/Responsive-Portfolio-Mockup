@@ -60,7 +60,7 @@ header ul,
 }
 
 .main-header img {
-  max-width: 60%;
+  max-width: 70%;
 }
 
 #portfolio-upper,
@@ -70,8 +70,6 @@ header ul,
 
 .about-me {
   color: #808080;
-  padding-left: 20px;
-  padding-right: 20px;
   padding-bottom: 35px;
 }
 
@@ -103,7 +101,7 @@ hr {
 }
 
 .profile-img {
-  margin-top: 2.5em;
+  margin-top: 1.5em;
   margin-bottom: 1.5em;
 }
 
@@ -164,4 +162,39 @@ a:link {
   display: table;
   content: "";
   clear: both;
+}
+
+/* @media css rules for tablet size*/
+@media(min-width:768px) {
+  .container {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .name,
+  .main-nav a {
+    display: inline-block;
+  }
+
+  header li {
+    background: none;
+    margin-top: 8px;
+    display: inline;
+  }
+
+  .profile-img {
+    float: right;
+    width: 40%;
+    margin: 0 0 4em 0;
+
+    padding-top: 2em;
+  }
+
+  .about-me {
+    text-align: left;
+    width: 60%;
+    font-size: 1.2em;
+    padding-right: 1em;
+    padding-top: 2em;
+  }
 }
