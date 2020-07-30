@@ -1,135 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jordan Perez Portfolio</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
 
-  <body>
-    <header class="main-header">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jordan Perez Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="container">
+      <h1 class="name"><a>Jordan Perez</a></h1>
+      <nav>
+        <ul class="main-nav">
+          <li><a class="header-nav" href="#Home">Home</a></li>
+          <li><a class="header-nav" href="#portfolio-upper">Portfolio</a></li>
+          <li><a class="header-nav" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <img class="profile-img" src="images/responsive-layout-profile.png" alt="profile-image" />
+    <p class="about-me">
+      Hi! I'm a front-end developer who loves responsive design and css. I
+      recently finished a degree in front-end web development at Treehouse and
+      am excited to put all my skills to use!
+    </p>
+  </header>
+
+  <main>
+    <section id="portfolio-upper">
+      <h5>Portfolio</h5>
       <div class="container">
-        <h1 class="name"><a>Jordan Perez</a></h1>
-        <nav>
-          <ul class="main-nav">
-            <li><a class="header-nav" href="#Home">Home</a></li>
-            <li><a class="header-nav" href="#portfolio-upper">Portfolio</a></li>
-            <li><a class="header-nav" href="#contact">Contact</a></li>
-          </ul>
-        </nav>
+        <div class="first col">
+          <img class="portfolio-img" src="images/portfolio-1.png" alt="portfolio-1-img" />
+          <h3>Marketing Page</h3>
+          <p>
+            This project shows the front of page of a marketing website meant
+            for a specific business I'm interested in.
+          </p>
+        </div>
+        <div class="second col">
+          <img class="portfolio-img" src="images/portfolio-2.png" alt="portfolio-2-img" />
+          <h3>Search Page</h3>
+          <p>
+            This project searches through a specific database to find
+            information that the user is trying to look up.
+          </p>
+        </div>
+        <div class="third col">
+          <img class="portfolio-img" src="images/portfolio-3.png" alt="portfolio-3-img" />
+          <h3>Travel App</h3>
+          <p>
+            This project compares travel times based on different
+            transportation methods and tells you the best one.
+          </p>
+        </div>
       </div>
-      <img
-        class="profile-img"
-        src="images/responsive-layout-profile.png"
-        alt="profile-image"
-      />
-      <p class="about-me">
-        Hi! I'm a front-end developer who loves responsive design and css. I
-        recently finished a degree in front-end web development at Treehouse and
-        am excited to put all my skills to use!
+    </section>
+    <section id="portfolio-lower">
+      <div class="container">
+        <div class="first col">
+          <img class="portfolio-img" src="images/portfolio-4.png" alt="portfolio-4-img" />
+          <h3>Map of Favorite Spots</h3>
+          <p>
+            This project uses mapping apis to plot points for my favorite
+            spots in the city for a do-it-yourself walking tour.
+          </p>
+        </div>
+        <div class="second col">
+          <img class="portfolio-img" src="images/portfolio-5.png" alt="portfolio-5-img" />
+          <h3>Photo Gallery</h3>
+          <p>
+            This project shows pictures from a recent trip to the viewer and
+            allows them to easily navigate through photos.
+          </p>
+        </div>
+        <div class="third col">
+          <img class="portfolio-img" src="images/portfolio-6.png" alt="portfolio-6-img" />
+          <h3>Calculator</h3>
+          <p>
+            Someone can enter in the numbers they want, and press the big blue
+            button and get the result.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="main-footer" id="contact">
+    <div class="container">
+      <h5 class="contact">Contact</h5>
+      <p>
+        If you're interested in chatting or want more information about what
+        I've been working on, I'd love to hear from you!
       </p>
-    </header>
+      <p>Phone <strong>+1(111)555-1234</strong></p>
+      <p>Email <strong>email@yoursite.com</strong></p>
+      <hr />
+    </div>
+  </footer>
+</body>
 
-    <main>
-      <section id="portfolio-upper">
-        <h5>Portfolio</h5>
-        <div class="container">
-          <div class="first col">
-            <img
-              class="portfolio-img"
-              src="images/portfolio-1.png"
-              alt="portfolio-1-img"
-            />
-            <h3>Marketing Page</h3>
-            <p>
-              This project shows the front of page of a marketing website meant
-              for a specific business I'm interested in.
-            </p>
-          </div>
-          <div class="second col">
-            <img
-              class="portfolio-img"
-              src="images/portfolio-2.png"
-              alt="portfolio-2-img"
-            />
-            <h3>Search Page</h3>
-            <p>
-              This project searches through a specific database to find
-              information that the user is trying to look up.
-            </p>
-          </div>
-          <div class="third col">
-            <img
-              class="portfolio-img"
-              src="images/portfolio-3.png"
-              alt="portfolio-3-img"
-            />
-            <h3>Travel App</h3>
-            <p>
-              This project compares travel times based on different
-              transportation methods and tells you the best one.
-            </p>
-          </div>
-        </div>
-      </section>
-      <section id="portfolio-lower">
-        <div class="container">
-          <div class="first col">
-            <img
-              class="portfolio-img"
-              src="images/portfolio-4.png"
-              alt="portfolio-4-img"
-            />
-            <h3>Map of Favorite Spots</h3>
-            <p>
-              This project uses mapping apis to plot points for my favorite
-              spots in the city for a do-it-yourself walking tour.
-            </p>
-          </div>
-          <div class="second col">
-            <img
-              class="portfolio-img"
-              src="images/portfolio-5.png"
-              alt="portfolio-5-img"
-            />
-            <h3>Photo Gallery</h3>
-            <p>
-              This project shows pictures from a recent trip to the viewer and
-              allows them to easily navigate through photos.
-            </p>
-          </div>
-          <div class="third col">
-            <img
-              class="portfolio-img"
-              src="images/portfolio-6.png"
-              alt="portfolio-6-img"
-            />
-            <h3>Calculator</h3>
-            <p>
-              Someone can enter in the numbers they want, and press the big blue
-              button and get the result.
-            </p>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="main-footer" id="contact">
-      <div class="container">
-        <h5 class="contact">Contact</h5>
-        <p>
-          If you're interested in chatting or want more information about what
-          I've been working on, I'd love to hear from you!
-        </p>
-        <p>Phone <strong>+1(111)555-1234</strong></p>
-        <p>Email <strong>email@yoursite.com</strong></p>
-        <hr />
-      </div>
-    </footer>
-  </body>
 </html>
