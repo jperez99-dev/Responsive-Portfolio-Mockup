@@ -94,7 +94,7 @@ h4 {
 }
 
 hr {
-  background-color: lightgrey;
+  background-color: rgb(220, 220, 220);
   height: 2px;
   border: none;
   margin-top: 50px;
@@ -124,7 +124,7 @@ h5 {
   float: left;
   margin: 0;
   font-weight: 800;
-  font-size: .8em;
+  font-size: 0.8em;
   padding-top: 20px;
   padding-bottom: 25px;
 }
@@ -138,7 +138,7 @@ footer a {
   text-transform: uppercase;
   padding-top: 20px;
   padding-bottom: 25px;
-  font-size: .7em;
+  font-size: 0.7em;
 }
 
 footer p {
@@ -172,15 +172,12 @@ a:link {
   clear: both;
 }
 
-
-
 /* @media css rules for tablet size*/
-@media(min-width:768px) {
+@media (min-width: 768px) {
   .container {
     padding-left: 25px;
     padding-right: 25px;
   }
-
 
   .name,
   .main-nav a {
@@ -218,9 +215,8 @@ a:link {
     padding-left: 5px;
     padding-right: 5px;
     float: left;
+    margin-top: 20px;
   }
-
-
 
   .portfolio-li,
   .home-li,
@@ -249,14 +245,17 @@ a:link {
     padding-right: 8em;
     padding-bottom: 1em;
   }
+  section p {
+    padding-right: 1em;
+    padding-left: 1em;
+  }
 }
 
-@media(min-width:1024px) {
+@media (min-width: 1024px) {
   .container {
     padding-left: 60px;
     padding-right: 60px;
   }
-
 
   .main-nav {
     float: right;
@@ -290,5 +289,30 @@ a:link {
     width: 33.33%;
     padding-left: 5px;
     padding-right: 5px;
+  }
+  section p {
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1em;
+  }
+  .portfolio-img4,
+  .portfolio-img5,
+  .portfolio-img6 {
+    margin-top: 50px;
+  }
+  footer p {
+    padding-left: 8em;
+    padding-right: 8em;
+    font-size: 20px;
+  }
+  .contact {
+    margin-top: 100px;
+  }
+  footer .clearfix {
+    padding-bottom: 20px;
+  }
+  footer h5,
+  footer a {
+    font-size: 1em;
   }
 }
