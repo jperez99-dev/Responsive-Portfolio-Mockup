@@ -215,21 +215,12 @@ a:link {
   .portfolio-img5,
   .portfolio-img6 {
     width: 50%;
-  }
-
-  .portfolio-img2,
-  .portfolio-img4,
-  .portfolio-img6 {
-    float: right;
     padding-left: 5px;
+    padding-right: 5px;
+    float: left;
   }
 
-  .portfolio-img1,
-  .portfolio-img3,
-  .portfolio-img5 {
-    float: left;
-    padding-right: 5px;
-  }
+
 
   .portfolio-li,
   .home-li,
@@ -288,5 +279,16 @@ a:link {
 
   .col-lower {
     padding-top: 20px;
+  }
+
+  .portfolio-img1,
+  .portfolio-img2,
+  .portfolio-img3,
+  .portfolio-img4,
+  .portfolio-img5,
+  .portfolio-img6 {
+    width: 33.33%;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 }
