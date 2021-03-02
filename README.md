@@ -1,2 +1,2 @@
-# Tech-Degree-Project-2
- Responsive portfolio mockup.
+Responsive Portfolio
+Responsive portfolio mockup using HTML and CSS Floats.
